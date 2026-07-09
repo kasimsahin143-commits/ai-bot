@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Sohbet 🤖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Chat Header -->
+        <div class="chat-header">
+            <h1>🤖 AI Asistan</h1>
+        </div>
+
+        <!-- Messages -->
+        <div id="messagesContainer" class="messages">
+            <div class="message bot-message">
+                <p>👋 Merhaba! Ben AI Asistanım. Sana nasıl yardımcı olabilirim?</p>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <input 
+                type="text" 
+                id="messageInput" 
+                placeholder="Mesaj yazın..."
+                autocomplete="off"
+            >
+            <button id="sendBtn" class="btn-send">Gönder</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
