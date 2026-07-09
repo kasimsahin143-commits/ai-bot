@@ -1,0 +1,11 @@
+{
+  "name": "ai-bot",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "postCreateCommand": "npm install && npm start",
+  "forwardPorts": [3000],
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["public/index.html"]
+    }
+  }
+}
